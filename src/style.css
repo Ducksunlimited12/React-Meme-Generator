@@ -1,0 +1,116 @@
+body{    
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  background: linear-gradient(90deg, #040305 1.18%, #525253 100%);
+  color: white;
+  padding: 20px;
+  margin-bottom: 3rem;
+  
+}
+
+.header--title {
+  font-size: 2.25rem;
+  
+  }
+
+  .header--title--highlight {
+    background: -webkit-linear-gradient(white, rgb(201, 0, 0) 95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .select,
+  .input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .select {
+    width: 200px;
+  }
+  
+  .input {
+    width: 300px;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .meme {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+  
+  @media screen and (max-width: 480px) {
+    
+    .container {
+      padding: 5px;
+    }
+
+    .select {
+      font-size: 16px;
+    }
+  
+    .input {
+      font-size: 16px;
+    }
+  
+    .button {
+      font-size: 16px;
+    }
+
+  .meme {
+    max-width: 95vw;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
